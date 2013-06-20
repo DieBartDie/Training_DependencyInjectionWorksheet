@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\..\..\Fizzbuss\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DayGenerator.cs" />
+    <Compile Include="IDayGenerator.cs" />
     <Compile Include="PublicHolidayNotifierTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PublicHolidayNotifier.cs" />
